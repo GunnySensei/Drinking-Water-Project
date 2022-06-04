@@ -1,5 +1,3 @@
 # Drinking-Water-Project
 
-Mockup for Non-Profit Drinking Water Program
-123 testing
-Testing 123
+This is a mockup of a Drinking Water Project Website
