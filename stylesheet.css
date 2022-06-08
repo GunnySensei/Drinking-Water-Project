@@ -1,0 +1,14 @@
+.header-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  background-image: url("./images/header_bg.jpg");
+  background-size: contain;
+  color: black;
+}
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+}

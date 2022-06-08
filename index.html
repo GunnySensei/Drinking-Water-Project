@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheet.css" type="text/css" />
+    <script type="module" src="./index.js"></script>
+</head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-text">
+          <h1>Everlasting Water Foundation</h1>
+          <h2 class="header-anchors">
+            <span>
+              <a href="index.html" style="text-decoration: none">Home</a>
+            </span>
+            <span>
+              <a href="about.html" style="text-decoration: none">About</a>
+            </span>
+            <span>
+              <a href="contact.html" style="text-decoration: none">Contact</a>
+            </span>
+          </h2>
+        </div>
+    </div>
+    <div class="content">
+        <section class="about-section">
+            <p>
+            Everlasting Water Foundation is a non-profit organization that
+            works to provide water to the people of the World.
+            </p>
+        </section>
+        <!-- using Google Maps API to select a location, see js for location -->
+        <section class="location">
+            <div id="map" />
+            <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPKOKN-zpWBRYXIFjUlSRId4xKJqQO-tw&callback=initMap"
+            defer
+          ></script>
+        </section>
+    </div>
+  </body>
+</html>
